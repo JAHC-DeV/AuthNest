@@ -1,5 +1,5 @@
 import { BadRequestException, Injectable, UnauthorizedException } from '@nestjs/common';
-import { LoginRequest } from './DTOs/loginResquest';
+import { LoginRequest } from './DTOs/loginRequest';
 import { UsersService } from 'src/users/users.service';
 import { JwtService } from '@nestjs/jwt';
 import { LoginResponse } from './DTOs/loginResponse';
